@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Dang - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            margin: 0 0 10px;
+        }
+        p {
+            margin: 0 0 20px;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sebastian Dang</h1>
+        <p>Student | Barista</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a professional in customer service, listening skills, and general business. As a student and barista, I have honed my abilities to effectively communicate and provide excellent service in any setting.</p>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:sebastian@example.com">sebastian@example.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/sebastiandang">linkedin.com/in/sebastiandang</a></li>
+        </ul>
+    </section>
+</body>
+</html>
